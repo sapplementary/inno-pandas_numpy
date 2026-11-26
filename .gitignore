@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Виртуальные окружения
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Сборка и пакеты
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Тесты и покрытие
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.hypothesis/
+coverage.xml
+
+# Логи и базы данных
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Типизация
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# IDE
+.vscode/
+.idea/
